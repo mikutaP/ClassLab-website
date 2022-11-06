@@ -1,0 +1,79 @@
+main {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.top_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vision_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+.previous_classes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .pre_class {
+    /*padding: 30px;*/
+    width: 32%;
+    background-color: #fff;
+  }
+  
+  @media not all and (min-width: 768px) {
+    .pre_class {
+      width: 100%;
+    }
+  
+    .pre_class:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+.our_merit {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.diff_pre {
+    width: 50%;
+    display: flex;
+}
+
+.circle {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle::before {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
