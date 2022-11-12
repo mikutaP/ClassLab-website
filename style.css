@@ -1,3 +1,7 @@
+body {
+    background-color: lightseagreen;
+}
+
 main {
     width: 100%;
     display: inline-block;
@@ -58,22 +62,19 @@ li {
 }
 
 .diff_pre {
-    width: 50%;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .circle {
-    width: 50%;
-    height: 50%;
-    border-radius: 100%;
-    background-color: skyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 32%;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    background-color: white;
 }
 
-.circle::before {
-    display: block;
-    content: '';
-    padding-top: 100%;
+.sales_point {
+    text-align: center;
 }
